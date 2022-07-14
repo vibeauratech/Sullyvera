@@ -446,7 +446,7 @@ nav .portfolioicon-burger .line{
 }
 
 .marquee-content:hover{
-    animation-play-state: paused;
+    animation-play-state: none;
 }
 
 @keyframes scrolling{
