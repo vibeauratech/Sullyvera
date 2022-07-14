@@ -186,14 +186,20 @@ nav .portfolioicon-burger .line{
     .hero-container{
         margin-top: 200px;
     }
+    .hero-text{
+        flex-basis: 50%;
+        flex-grow: 1;
+        text-align: left;
+        padding-left: 40px;
+    }
     
     .hero-text p{
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 500;
         color: #ccc;
     }
     .hero-text h1{
-        font-size: 32px;
+        font-size: 30px;
         font-weight: 800;
         color: #fff;
     }
