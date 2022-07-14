@@ -300,7 +300,7 @@ nav .portfolioicon-burger .line{
 
 
 .social-media{
-    transform: rotate(90deg)translate(-170%);
+    transform: rotate(90deg)translate(-130%);
     transform-origin: left;
     position: absolute;
     bottom: 0;
