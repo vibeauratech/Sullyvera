@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="with=device-width,  initial-scale=1.0">
+    <title>Nueldev</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head> 
+
+<body>
+    <div class="banner-about">
+        <div class="overlay-about">
+            <nav >
+                <input id="portfolionav-toggle" type="checkbox">
+                <a href="index.html" class="logo">
+                  <strong>nuel.dev</strong>
+                </a>                 
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Stacks</a></li>
+                    <li><a href="">Projects</a></li>                         
+                    <li><a href="">Contact</a></li>                         
+                </ul>
+                
+                <label for="portfolionav-toggle" class="portfolioicon-burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </label>
+            </nav>           
+        </div>
+    </div>
+
+    <div class="row">    
+        <div class="products-list">
+            <div class="left-list">
+                <h1>AKHARIA EMMANUEL.</h1>
+                <p>
+                    I am a front-end developer, product and motion designer based in Lagos, Nigeria. 
+                    I will be helping you create impeccable digital experience, by building scalable and 
+                    responsive web projects with clean and maintainable code.
+                </p> <br>
+                <p>
+                    My core focus is to create user-friendly modern web projects. 
+                    Problem solving as a niche, helps me  navigate ideas and provide solutions.     
+                </p>  <br>
+                <p>
+                    My core focus is to create user-friendly modern web projects. 
+                    Problem solving as a niche, helps me  navigate ideas and provide solutions.     
+                </p>                  
+            </div>
+            <div class="right-list">
+    
+            </div>   
+        </div>    
+    </div>     
+
+    <div class="marquee">
+        <ul class="marquee-content">
+            <li> Modern Websites. </li>
+            <li> UI/UX Design.</li>
+            <li>Brand Identity.</li>       
+            <li> Seo Optimization.</li>       
+        </ul>
+    </div>
+    
+          
+<div class="blog-content">
+    <div class="row">
+        <h2>Stack</h2>
+    </div>
+    <div class="row">
+        <div class="blog-left">
+            <h3> Proficient</h3>
+            <div class="blogright-content">
+                <p>HTML</p>
+                <i class="fa-brands fa-html5"></i>
+            </div>
+            <div class="blogright-content">
+                <p>CSS</p>
+                <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="blogright-content">
+                <p>JAVASCRIPT</p>
+                <i class="fa-brands fa-js"></i>
+            </div> 
+            <div class="blogright-content">
+                <p>JQUERY</p>
+                <i class="fa-brands fa-js"></i>
+            </div>
+            <div class="blogright-content">
+                <p>REACT.JS</p>
+                <i class="fa-brands fa-react"></i>
+            </div>
+            <div class="blogright-content">
+                <p>REDUX</p>
+                <img src="icons8-redux.svg" style="background-color: aliceblue;" width="15px" height="15px">
+            </div>  
+            <div class="blogright-content">
+                <p>NEXT.JS</p>
+                <img src="icons8-next.js.svg" style="background-color: aliceblue;" width="15px" height="15px">
+            </div> 
+            <div class="blogright-content">
+                <p>FIGMA</p>
+                <i class="fa-brands fa-figma"></i>
+            </div> 
+            <div class="blogright-content">
+                <p>ADOBE AFTER-EFFECTS</p>
+                <i class="fa-solid fa-check"></i>
+            </div>      
+        </div>
+        
+
+        <div class="blog-right">
+            <h3> Familiar</h3>
+            <div class="blogright-content">
+                <p>Node.JS</p>
+                <img src="icons8-node-js.svg" style="background-color: aliceblue;" width="15px" height="15px">
+            </div>
+            <div class="blogright-content">
+                <p>MongoDB</p>
+                <img src="icons8-mongodb-a-cross-platform-document-oriented-database-program-24.png" style="background-color: aliceblue;" width="15px" height="15px">
+            </div>
+            <div class="blogright-content">
+                <p>GraphQL</p>
+                <img src="icons8-graphql.svg" style="background-color: aliceblue;" width="15px" height="15px">
+            </div>
+            <div class="blogright-content">
+                <p>MySQL</p>
+                <img src="icons8-mysql-logo.svg" style="background-color: aliceblue;" width="15px" height="15px">
+            </div>  
+            <div class="blogright-content">
+                <p>ExpressJS</p>
+                <img src="icons8-express.svg" style="background-color: aliceblue;" width="15px" height="15px">
+            </div>                           
+        </div>
+    </div>
+</div>    
+       
+<script>
+    const root = document.documentElement;
+const marqueeElementsDisplayed = getComputedStyle(root).getPropertyValue("--marquee-elements-displayed");
+const marqueeContent = document.querySelector(".marquee-content");
+
+root.style.setProperty("--marquee-elements", marqueeContent.children.length);
+
+for (let i=0; i<marqueeElementsDisplayed; i++) {
+    marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
+}
+</script>
+    
+</body>  
+</html>
