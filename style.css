@@ -40,8 +40,9 @@
 }
 
 .logo strong{
-    color: var(--secondary-color);
+    color: #08802C;
 }
+
 .profile{
     display: flex;
     justify-content: center;
@@ -53,6 +54,16 @@
     margin-top: 8px;
     font-size: 18px;
     font-weight: 500;
+}
+@media screen and (max-width:768px){
+    .profile a{
+        margin-top: 0px;   
+    }
+    .profile{
+        display: flex;
+        justify-content: center;
+        padding-right: 70px;
+    }
 }
 
 nav{
@@ -126,31 +137,55 @@ nav .portfolioicon-burger .line{
     border-radius: 3px;
     transition: all .3s ease-in-out;
 }
-.signup-container{
+
+.hero-container{
     width: 100%;
     min-height: 0vh;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 5%;
-    margin-top: 30px;
+    margin-top: 150px;
 }
-.signup-box{
+
+.hero-box{
     display: flex;
     align-items: center;
     width: 100%;
     max-width: 800px;
     flex-wrap: wrap;
 }
-.signup-text{
+.hero-text{
     flex-basis: 50%;
     flex-grow: 1;
+    text-align: center;
 }
-
-
-
-
-
+.hero-text p{
+    font-size: 22px;
+    font-weight: 500;
+    color: #ccc;
+}
+.hero-text h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #fff;
+}
+@media screen and (max-width:768px){
+    .hero-container{
+        margin-top: 180px;
+    }
+    
+    .hero-text p{
+        font-size: 18px;
+        font-weight: 500;
+        color: #ccc;
+    }
+    .hero-text h1{
+        font-size: 32px;
+        font-weight: 800;
+        color: #fff;
+    }
+}
 
 .overview{
     display: flex;
