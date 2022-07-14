@@ -524,6 +524,101 @@ nav .portfolioicon-burger .line{
     }
 }
 
+footer{
+    width: 100%;
+    bottom: 0;
+    padding: 100px 0 30px;
+    font-size: 13px ;
+    line-height: 20px;
+    margin-top: 15px;
+}
+
+.feeter-row{
+    width: 85%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-text{
+    color: #fff;
+}
+.footer-text p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ccc;
+    padding-bottom: 30px;
+}
+
+.footer-text a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+.social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.social-icon i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: rgb(70, 69, 69);
+    background: white;
+    margin-right: 15px;
+    cursor: none;
+}
+
+hr{
+    width: 80%;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    margin: 20px auto;
+}
+.copyright{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+
+
+
+
+@media (max-width: 700px) {
+    footer{
+        bottom: unset;
+         
+    }
+
+    .col-logo{
+        flex-basis: 100%;
+        
+    }
+    .col{
+         flex-basis: 100%;
+         padding-bottom: 30px;
+    }
+    .copyright{
+        text-align: center;
+        margin-left: 0;
+        color: white;
+        padding-bottom: 50px;
+    }
+    
+}
+
 .contact-header{
     margin-top: 15%; 
     padding-left: 25%;
