@@ -145,7 +145,7 @@ nav .portfolioicon-burger .line{
     align-items: center;
     justify-content: center;
     padding: 5%;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 .hero-box{
@@ -164,6 +164,7 @@ nav .portfolioicon-burger .line{
     font-size: 22px;
     font-weight: 500;
     color: #ccc;
+    padding-bottom: 40px;
 }
 .hero-text h1{
     font-size: 48px;
@@ -183,7 +184,7 @@ nav .portfolioicon-burger .line{
 
 @media screen and (max-width:768px){
     .hero-container{
-        margin-top: 180px;
+        margin-top: 200px;
     }
     
     .hero-text p{
