@@ -518,6 +518,11 @@ nav .portfolioicon-burger .line{
     box-sizing: border-box;
     color: #fff;
 }
+@media screen and (max-width:768px){
+    .blog-right{
+        margin-top: 30px;
+    }
+}
 
 .contact-header{
     margin-top: 15%; 
