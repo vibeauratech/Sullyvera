@@ -33,14 +33,14 @@
     float: left;
     display: flex;
     color:white;    
-    font-size: 18px; 
+    font-size: 24px; 
     font-weight: 700;
     margin-left: 0;
     cursor: pointer;
 }
 
 .logo strong{
-    color: #08802C;
+    color: #53a8da;
 }
 
 .profile{
@@ -75,7 +75,7 @@ nav{
     width: 100%;
     position: fixed;
     top: 0;
-    padding: 1.5rem 4%;
+    padding: 1.5rem 3%;
 }
 
 nav .links{
@@ -202,6 +202,13 @@ nav .portfolioicon-burger .line{
     font-weight: 500;
     text-decoration: none;
 }
+@media screen and (max-width:768px){
+    .overview{
+        left: 19.5%;
+        width: 75%;
+    }
+
+}
 
 @media screen and (max-width:2560px) {
     nav .links{
@@ -255,6 +262,8 @@ nav .portfolioicon-burger .line{
 }
 
 
+
+
 .social-media{
     transform: rotate(90deg)translate(-100%);
     transform-origin: left;
@@ -276,6 +285,15 @@ nav .portfolioicon-burger .line{
     background: #fff;
     margin-right: 15px;
     cursor: pointer;
+}
+@media screen and (max-width:768px){
+    .social-media i{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 19px;
+       
+    }
 }
 
 
