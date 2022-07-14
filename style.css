@@ -169,7 +169,18 @@ nav .portfolioicon-burger .line{
     font-size: 48px;
     font-weight: 800;
     color: #fff;
+    padding-bottom: 40px;
 }
+.hero-text a{
+    color: #FEF0AC;
+    text-decoration: none;
+    font-size: 18px;
+}
+.hero-text a:hover{
+    transform: scale(1.05);
+    font-size: 20px;
+}
+
 @media screen and (max-width:768px){
     .hero-container{
         margin-top: 180px;
@@ -282,7 +293,7 @@ nav .portfolioicon-burger .line{
 
 
 .social-media{
-    transform: rotate(90deg)translate(-100%);
+    transform: rotate(90deg)translate(-170%);
     transform-origin: left;
     position: absolute;
     bottom: 0;
@@ -303,6 +314,23 @@ nav .portfolioicon-burger .line{
     margin-right: 15px;
     cursor: pointer;
 }
+#bird:hover{
+    background: #A4C7DB;
+    color: #fff;
+}
+#cream:hover{
+    background: #fae78b;
+    color: #fff;
+}
+#brown:hover{
+    background: aqua;
+    color: #fff;
+}
+#peach:hover{
+    background: rgb(2, 2, 139);
+    color: #fff;
+}
+
 @media screen and (max-width:768px){
     .social-media i{
         width: 30px;
