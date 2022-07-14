@@ -185,6 +185,9 @@ nav .portfolioicon-burger .line{
         font-weight: 800;
         color: #fff;
     }
+    .logo{
+        margin-top: -5px;
+    }
 }
 
 .overview{
