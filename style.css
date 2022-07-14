@@ -408,6 +408,10 @@ nav .portfolioicon-burger .line{
         flex-basis: 100%;
         text-align: left;
     }
+    .left-list h1{
+        padding-top: 20%;
+    }
+
 }
 
 
@@ -417,10 +421,9 @@ nav .portfolioicon-burger .line{
     display: flex;
     height: var(--marquee-height);
     width: var(--marquee-width);
-    background-color: #7A8AFF;
-    background: #7A8AFF;
-    color: #111D67;
-    margin-top: 0px;
+    background: black;
+    color: #ccc;
+    margin-top: 50px;
     margin-left: 10%;
     overflow: hidden;
 }
@@ -468,6 +471,9 @@ nav .portfolioicon-burger .line{
         --marquee-height:12vh; 
         --marquee-width:80vw; 
         --marquee-elements-displayed:1;
+    }
+    .marquee-content li{
+        font-size: calc(var(--marquee-height)*1/3);
     }
 }
 
