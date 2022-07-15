@@ -360,7 +360,7 @@ nav .portfolioicon-burger .line{
 @media screen and (max-width: 768px){
     .row{
         flex-direction: column;
-        text-align: center;    
+        text-align: left;    
     }
 }
 
@@ -765,5 +765,115 @@ textarea{
     }
 }
 
+.product-text{
+    margin-top: 15%;
+    color: #fff;
+}
+.product-text h1{
+     font-size: 48px;
+     font-weight: 600;
+}
+.product-text p{
+    color: #ccc;
+    font-size: 22px;
+    padding-top: 20px;
+}
+@media screen and (max-width:768px){
+    .product-text{
+        margin-top: 30%;
+    }
+}
+.pro-con{
+    width: 100%;
+    min-height: 0vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0;
+    margin-top: 5%;
+}
+.pro-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.pro-left{
+    flex-basis: 45%;
+    flex-grow: 1;
+    background: rgb(1, 36, 36);
+    color: white;
+    padding: 40px 4%;
+    margin-right: 5%;
+    min-width: 250px;
+}
+.pro-left h3{
+    background: transparent;
+    padding-bottom: 30px;
+}
+.pro-left h2{
+    background: transparent;
+    font-size: 32px;
+}
+.pro-left img{
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    background: transparent;
+}
 
+@media screen and (max-width:1024px){
+    .pro-left{
+        margin-bottom: 5%;
+        margin-right: 0%;
+        flex-basis: 100%;
+    }
+    .pro-right{
+        flex-basis: 100%;
+    }
+    
+}
 
+.pro-right{
+    flex-basis: 45%;
+    flex-grow: 1;
+    background: rgb(1, 36, 36);
+    color: white;
+    padding: 40px 4%;
+    min-width: 250px;
+}
+.pro-right h3{
+    background: transparent;
+    padding-bottom: 30px;
+}
+.pro-right h2{
+    background: transparent;
+    font-size: 32px;
+}
+.pro-right img{
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    background: transparent;
+}
+
+@media screen and (max-width:768px){
+    .pro-right h2{
+        font-size:24px ;
+    }
+    .pro-right h3{
+        font-size:16px ;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .pro-left h2{
+        font-size:24px ;
+    }
+    .pro-left h3{
+        font-size:16px ;
+        padding-bottom: 20px;
+    }
+}
+ 
