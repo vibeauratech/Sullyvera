@@ -92,7 +92,8 @@ nav .links{
 nav .links li{
     list-style: none;
     display: inline-block; 
-    position: relative;   
+    position: relative;
+    background: transparent;     
 }
 nav .links li::after{
     content: '';
@@ -109,7 +110,8 @@ nav .links li:hover::after{
 nav .links li a{
     color: white;
     text-decoration: none;
-    font-size: 14px;   
+    font-size: 14px;  
+    background: transparent;   
 }
 nav .links li a:hover{
     color: rgb(28, 175, 106);
@@ -257,7 +259,8 @@ nav .portfolioicon-burger .line{
         top: 80px;
         bottom: 100%;
         z-index: 9;
-        background:orangered;
+        background:rgb(1, 36, 36);
+        color: #fff;
         display: flex;
         width: auto;
         height: auto;
@@ -270,11 +273,13 @@ nav .portfolioicon-burger .line{
     nav .links a{
         font-size: 20px;
         color: white;
+        
     }
     nav .links li a{
         color:#fff;
         text-decoration: none;
-        font-size: 28px;   
+        font-size: 28px; 
+        background: transparent;  
     }
 
     nav .portfolioicon-burger{
@@ -548,6 +553,15 @@ nav .portfolioicon-burger .line{
     font-weight: 700;
     margin-bottom: 30px;
 }
+@media screen and (max-width:768px){
+    .footer-text h2{
+        font-size:28px ;
+
+    }
+    .footer-text p{
+        font-size: 16px;
+    }
+}
 
 .connect-center{
     display: flex;
@@ -798,6 +812,25 @@ textarea{
     width: 100%;
     flex-wrap: wrap;
 }
+
+.new-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #ccc;
+    border: 2px solid #ccc;
+    padding: 16px 64px;
+    font-size: 14px;
+    font-weight: bold;       
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 1px;    
+}
+.new-btn:hover{
+    color: rgb(1, 36, 36);
+    background: #ccc;
+    border: 1px solid #ccc;
+}
 .pro-left{
     flex-basis: 45%;
     flex-grow: 1;
@@ -820,6 +853,12 @@ textarea{
     height: auto;
     padding-top: 40px;
     background: transparent;
+}
+.pro-left p{
+    background: transparent;
+    font-size: 16px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 @media screen and (max-width:1024px){
@@ -855,6 +894,12 @@ textarea{
     height: auto;
     padding-top: 40px;
     background: transparent;
+}
+.pro-right p{
+    background: transparent;
+    font-size: 16px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 @media screen and (max-width:768px){
