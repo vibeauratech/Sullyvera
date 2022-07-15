@@ -524,35 +524,24 @@ nav .portfolioicon-burger .line{
     }
 }
 
-footer{
-    width: 100%;
-    bottom: 0;
-    padding: 100px 0 30px;
-    font-size: 13px ;
-    line-height: 20px;
-    margin-top: 15px;
-}
-
-.feeter-row{
-    width: 85%;
-    display: flex;
-    margin: auto;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
-}
 
 .footer-text{
     color: #fff;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .footer-text p{
     font-size: 20px;
     font-weight: 600;
     color: #ccc;
     padding-bottom: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #ccc;
 }
 
-.footer-text a{
+.footer-text h2{
     color: #fff;
     text-decoration: none;
     font-size: 48px;
@@ -560,26 +549,54 @@ footer{
     margin-bottom: 30px;
 }
 
-
-.social-icon{
+.connect-center{
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding-bottom: 20px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.connect-team{
+    display: grid;
+    gap: 3.5rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+.connect-card{
+    width: 100%;
+    max-width: 15rem;
+    padding: 25px 55px;
+    text-align: center;
+    background: transparent;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background: transparent;
+    color: #ccc;
+    border-radius: 5px; 
+    line-height: 1.2;
+    transition: transform 0.5s, background 0.5s;
+}
+.connect-card h3{
+    text-align: center;
+}
+.connect-card:hover{
+    border: 2px solid aqua;
+    transform: scale(1.05);
+   
 }
 
-.social-icon i{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    font-size: 20px;
-    color: rgb(70, 69, 69);
-    background: white;
-    margin-right: 15px;
-    cursor: none;
+
+@media screen and (max-width:768px){
+    .connect-team{
+        display: flex;
+        flex-direction: column;
+       margin: 30px 0;
+    }  
 }
+
+
+
+
 
 hr{
     width: 80%;
