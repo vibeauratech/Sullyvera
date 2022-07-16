@@ -496,7 +496,7 @@ nav .portfolioicon-burger .line{
     flex-basis: 45%;
 }
 .blog-left h3{
-    background: #00001a;
+    background: rgb(1, 36, 36);
     color: white;
     padding: 9px 0;
     font-size: 16px;
@@ -508,7 +508,7 @@ nav .portfolioicon-burger .line{
     flex-basis: 45%;
 }
 .blog-right h3{
-    background: #00001a;
+    background: rgb(1, 36, 36);
     color: white;
     padding: 9px 0;
     font-size: 16px;
