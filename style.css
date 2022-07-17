@@ -190,7 +190,7 @@ nav .portfolioicon-burger .line{
         margin-top: 200px;
     }
     .hero-text{
-        flex-basis: 50%;
+        flex-basis: 100%;
         flex-grow: 1;
         text-align: left;
         padding-left: 40px;
