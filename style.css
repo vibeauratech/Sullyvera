@@ -129,6 +129,7 @@ nav .portfolioicon-burger{
     position: absolute;
     right: 5%;
     top: 45%;
+    cursor: pointer;
     transform: translateY(-50%);
     
 }
