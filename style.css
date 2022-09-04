@@ -5,7 +5,8 @@
     padding: 0;    
     text-decoration: none;
     box-sizing: border-box;
-    background: black;     
+    background: black;
+    color: #fff;     
 }
 :root{
     
@@ -530,6 +531,44 @@ nav .portfolioicon-burger .line{
     }
 }
 
+
+.job-description{
+    margin-bottom: 10%;
+}
+.job-description h2{
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.experience{
+    margin-bottom: 10%;
+}
+.experience h1{
+    color: #ccc;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.experience h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+@media screen and (max-width:768px){
+    .job-description h2{
+        color: #ccc;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+   
+    .experience h1{
+        color: #ccc;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .experience h2{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+}
 
 .footer-text{
     color: #fff;
