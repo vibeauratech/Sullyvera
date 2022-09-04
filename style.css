@@ -556,7 +556,7 @@ nav .portfolioicon-burger .line{
     .job-description h2{
         color: #ccc;
         margin-bottom: 10px;
-        font-size: 18px;
+        font-size: 20px;
     }
    
     .experience h1{
@@ -565,8 +565,8 @@ nav .portfolioicon-burger .line{
         margin-bottom: 10px;
     }
     .experience h2{
-        font-size: 18px;
-        margin-bottom: 5px;
+        font-size: 20px;
+        margin-bottom: 15px;
     }
 }
 
