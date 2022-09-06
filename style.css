@@ -539,6 +539,9 @@ nav .portfolioicon-burger .line{
     color: #ccc;
     margin-bottom: 10px;
 }
+.job-description p{
+    line-height: 1.8;
+}
 
 .experience{
     margin-bottom: 10%;
@@ -551,6 +554,9 @@ nav .portfolioicon-burger .line{
 .experience h2{
     font-size: 20px;
     margin-bottom: 5px;
+}
+.experience p{
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width:768px){
